@@ -1,0 +1,100 @@
+*, h1, h2{
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-image: url('fundo.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter:blur(1px) ;
+  -webkit-backdrop-filter: blur(1px);
+  padding: 50px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.imagem {
+  display: flex;
+  justify-content: flex-start;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.curriculo{
+  padding: 50px 100px;
+  margin-top: 50px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+h2{
+  font-weight: 700;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.meio{
+  display: flex;
+  margin-top: 25px;
+  justify-content: center; 
+  width: 100%;
+}
+.esquerda{
+  border-right: 3px solid black;
+  width: calc(50% - 3px);
+}
+.backend{
+  text-align: end;
+  padding: 0 25px;
+  height: 180px;
+}
+.direita{
+  width: 50%;
+}
+.frontend{
+  padding: 0 25px;
+  height: 180px;
+}
+.carreira{
+  padding: 0 25px;
+}
+.adcionais{
+  text-align: end;
+  padding: 0 25px;
+}
+.icons{
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+.infos{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
